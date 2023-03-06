@@ -1,25 +1,37 @@
 div {
-  border: 1px solid slategray;
+  border: 1px solid #84a8cd;
+}
+
+body {
+  background-color: #84a8cd;
+  opacity: 1;
 }
 
 #Header {
-  height: 200px;
-  width: 1600px;
+  height: 100px;
+  width: 800px;
   margin-right: auto;
   margin-left: auto;
-  color: slateblue;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Cascadia Code";
 }
 
 #MainContent {
-  width: 1600px;
+  width: 800px;
   margin-right: auto;
   margin-left: auto;
   font-family: "Cascadia Code";
   text-align: center;
 }
 
+#img.Gif {
+  width: 700px;
+  height: auto;
+}
+
 #Footer {
-  width: 1602px;
+  width: 802px;
   margin-right: auto;
   margin-left: auto;
   height: 50px;
