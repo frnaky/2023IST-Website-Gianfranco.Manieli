@@ -1,0 +1,24 @@
+div {
+  border: 1px solid slategray;
+}
+
+#Header {
+  height: 200px;
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  color: slateblue;
+}
+
+#MainContent {
+  width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#Footer {
+  width: 1602px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 50px;
+}
