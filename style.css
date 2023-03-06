@@ -1,9 +1,9 @@
 div {
-  border: 1px solid #84a8cd;
+  border: 1px solid #2f333f;
 }
 
 body {
-  background-color: #84a8cd;
+  background-color: #2f333f;
   opacity: 1;
 }
 
@@ -15,6 +15,7 @@ body {
   color: rgb(0, 0, 0);
   text-align: center;
   font-family: "Cascadia Code";
+  color: #e5e9f0;
 }
 
 #MainContent {
@@ -23,11 +24,7 @@ body {
   margin-left: auto;
   font-family: "Cascadia Code";
   text-align: center;
-}
-
-#img.Gif {
-  width: 700px;
-  height: auto;
+  color: #e5e9f0;
 }
 
 #Footer {
@@ -37,8 +34,18 @@ body {
   height: 50px;
 }
 
-#header {
-  font-size: 32;
+#FooterLeft {
+  float: left;
+  width: 399px;
+  height: 50px;
+  border: 1px solid #4c566a;
+}
+
+#FooterRight {
+  float: right;
+  width: 399px;
+  height: 50px;
+  border: 1px solid #4c566a;
 }
 
 #faq {
