@@ -14,6 +14,8 @@ div {
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
+  font-family: "Cascadia Code";
+  text-align: center;
 }
 
 #Footer {
@@ -21,4 +23,12 @@ div {
   margin-right: auto;
   margin-left: auto;
   height: 50px;
+}
+
+#header {
+  font-size: 32;
+}
+
+#faq {
+  font-size: 20;
 }
