@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap");
+
 div {
   border: 1px solid #242933;
 }
@@ -5,6 +7,7 @@ div {
 body {
   background-color: #242933;
   opacity: 1;
+  font-family: "Source Code Pro";
 }
 
 #Header {
@@ -14,7 +17,6 @@ body {
   margin-left: auto;
   color: rgb(0, 0, 0);
   text-align: center;
-  font-family: "Cascadia Code";
   color: #e5e9f0;
 }
 
@@ -22,7 +24,6 @@ body {
   width: 800px;
   margin-right: auto;
   margin-left: auto;
-  font-family: "Cascadia Code";
   text-align: center;
   color: #e5e9f0;
 }
@@ -36,18 +37,26 @@ body {
 
 #FooterLeft {
   float: left;
-  width: 399px;
+  width: 49.5%;
   height: 50px;
   border: 1px solid #4c566a;
 }
 
 #FooterRight {
   float: right;
-  width: 399px;
+  width: 49.5%;
   height: 50px;
   border: 1px solid #4c566a;
 }
 
 #faq {
   font-size: 20;
+}
+
+@media only screen and (max-width: 998px) {
+  #Footer,
+  #MainContent,
+  #Header {
+    width: 100%;
+  }
 }
