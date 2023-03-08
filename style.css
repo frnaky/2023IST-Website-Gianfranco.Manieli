@@ -49,7 +49,30 @@ body {
   border: 1px solid #4c566a;
 }
 
-#faq {
+<style > a:link {
+  color: #88c0d0;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #81a1c1;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #5e81ac;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style > #faq {
   font-size: 20;
 }
 
