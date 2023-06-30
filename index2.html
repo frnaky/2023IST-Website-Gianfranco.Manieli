@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,6 +23,7 @@
         -webkit-user-select: none;
         -moz-user-select: none;
         user-select: none;
+        margin-bottom: 0;
       }
 
       @media (min-width: 768px) {
@@ -109,40 +110,7 @@
       </symbol>
     </svg>
 
-    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
-      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
-              id="bd-theme"
-              type="button"
-              aria-expanded="false"
-              data-bs-toggle="dropdown"
-              aria-label="Toggle theme (auto)">
-        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
-        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
-      </button>
-      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
-            Light
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
-            Dark
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-        <li>
-          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
-            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
-            Auto
-            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
-          </button>
-        </li>
-      </ul>
-    </div>
+    
 
     
 <header data-bs-theme="dark">
@@ -156,15 +124,17 @@
         <div class="col-sm-4 offset-md-1 py-4">
           <h4></h4>
           <ul class="list-unstyled">
-            <li><a href="insta" class="text-white">follow me</a></li>
-            <li><a href="lichess" class="text-white">lichess profile</a></li>
-            <li><a href="chess" class="text-white">chess.com profile</a></li>
+            <li><a href="https://www.instagram.com/franky._.y/" class="text-white">follow me</a></li>
+            <li><a href="https://lichess.org/@/frnaky" class="text-white">lichess profile</a></li>
+            <li><a href="https://www.chess.com/member/frankyyyyyyyyyyyyyy" class="text-white">chess.com profile</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <div class="navbar navbar-dark bg-dark shadow-sm">
+
+    
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
         <strong>c4 // the english opening</strong>
@@ -174,9 +144,9 @@
       </button>
 	   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="c4">why play c4?</a>
-      <a class="p-2 link-secondary" href="var">different variations</a>
-      <a class="p-2 link-secondary" href="buy">buy a course</a>
+      <a class="p-2 link-secondary" href="index2.html">why play c4?</a>
+      <a class="p-2 link-secondary" href="href/var.html">different variations</a>
+      <a class="p-2 link-secondary" href="href/buy.html">buy a course</a>
     </nav>
   </div>
     </div>
@@ -194,24 +164,30 @@
         <p>
             <br>
               <p class="lead text-body-secondary">
-			  Some of the different variations are:
+			  some of the different variations are:
             </p>
-           <a href="sym" class="btn btn-secondary my-2">symmetrical 1.c4 c5</a>
-          <a href="ang" class="btn btn-secondary my-2">anglo-indian 1.c4 nf6</a>
-		  <a href="sic" class="btn btn-secondary my-2">reverse sicillian 1.c4 e5</a>
+           <a href="href/sym.html" class="btn btn-secondary my-2">symmetrical 1.c4 c5</a>
+          <a href="href/ang.html" class="btn btn-secondary my-2">anglo-indian 1.c4 nf6</a>
+		  <a href="href/sic.html" class="btn btn-secondary my-2">reverse sicillian 1.c4 e5</a>
         </p>
       </div>
     </div>
   </section>
 
    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
-    <div class="col-md-6 px-0">
+    <style>
+      .test {
+        text-align:center
+      }
+</style>
+    <div class="col-md-6 px-0 test">
       <h1 class="display-4 fst-italic">anatoly karpov</h1>
+      <h2 class="display-r fst-italic">"how to play the english opening"</h2>
       <img src="images/karpov.jpg" width="300px" height="auto" >
       <p class="lead my-3">former world chess champion</p>
-
     </div>
   </div>
+
 </footer>
 
 
